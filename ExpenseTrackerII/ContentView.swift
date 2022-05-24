@@ -2,15 +2,17 @@
 //  ContentView.swift
 //  ExpenseTrackerII
 //
-//  Created by Sopnil Sohan on 22/5/22.
+//  Created by sabbir_iosdev on 22/5/22.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            Home()
+                .navigationBarHidden(true)
+        }
     }
 }
 
